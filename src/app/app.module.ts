@@ -8,6 +8,7 @@ import { HeaderComponent } from './ui/header/header.component';
 import { FooterComponent } from './ui/footer/footer.component';
 import { ContactComponent } from './ui/contact/contact.component';
 import { JourneyComponent } from './ui/journey/journey.component';
+import { MeComponent } from './me/me.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { JourneyComponent } from './ui/journey/journey.component';
     HeaderComponent,
     FooterComponent,
     ContactComponent,
-    JourneyComponent
+    JourneyComponent,
+    MeComponent
   ],
   imports: [
     BrowserModule,
